@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1,
+  "defaultProject": "myapp",
   "newProjectRoot": "projects",
   "projects": {
     "myapp": {
@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -120,6 +121,7 @@
           }
         }
       }
-    }},
-  "defaultProject": "myapp"
+    }
+  },
+  "version": 1
 }
